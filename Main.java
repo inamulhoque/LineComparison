@@ -16,8 +16,10 @@ public class Main {
         System.out.println("Length of line2: "+lenOfLine2);
         if (lenOfLine1 == lenOfLine2){
             System.out.println("Line1 is equal to line2.");
+        } else if (lenOfLine1>lenOfLine2){
+            System.out.println("Line1 is longer than line2.");
         } else {
-            System.out.println("Line1 is not equal to line2");
+            System.out.println("Line1 is shorter than line2.");
         }
     }
 }
